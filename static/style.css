@@ -1,0 +1,28 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2em;
+    background-color: black;
+    
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  video {
+    width: 640px;
+    height: 480px;
+  }
+  
+  button {
+    margin: 1em;
+    padding: 1em;
+    cursor: pointer;
+    
+  }
+  label{
+    color: white;
+  }
