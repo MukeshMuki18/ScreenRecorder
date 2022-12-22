@@ -16,20 +16,22 @@
   </head>
   <body>
     <h1>Screen recorder</h1>
+    
     <p id="warning">
       Enable chrome://flags/#enable-experimental-web-platform-features
     </p>
     <video id="videoElement" autoplay muted></video>
     <br />
     <button id="captureBtn">Capture</button>
-    <button id="startBtn" disabled>Start Recording</button>
+    <button style="display: none;" id="startBtn" disabled>Start Recording</button>
     <button id="stopBtn" disabled>Stop Capture</button>
     <br />
-    <input type="checkbox" id="audioToggle" />
+    <input type="checkbox" id="audioToggle" checked="checked"/>
     <label for="audioToggle">Capture Audio from Desktop</label>
-    <input type="checkbox" id="micAudioToggle" />
+    <input type="checkbox" id="micAudioToggle" checked="checked"/>
     <label for="micAudioToggle">Capture Audio from Microphone</label>
-    <a id="download" href="#" style="display: none">Download</a>
+    <a id="download" href="#" style="display: none">Download</a><br>
+    <li><a href="instructions.html">How to record?</a></li>
     <script src="/script.js" async></script>
   </body>
 </html>
